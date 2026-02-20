@@ -1,0 +1,15 @@
+{
+  "name": "me-ai-monitor",
+  "version": "1.0.0",
+  "description": "AI-powered usage monitor for Mark Edwards Apparel product catalog",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.11.3",
+    "@anthropic-ai/sdk": "^0.24.0"
+  }
+}
